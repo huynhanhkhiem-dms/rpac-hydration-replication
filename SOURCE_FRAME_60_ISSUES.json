@@ -52,14 +52,14 @@
       ]
     },
     {
-      "query": "hydration "screen reader" in:title is:issue created:2021-01-01..2026-09-14",
+      "query": "hydration \"screen reader\" in:title is:issue created:2021-01-01..2026-09-14",
       "count": 1,
       "canonical_urls": [
         "https://github.com/ParachuteComputer/parachute-app/issues/77"
       ]
     },
     {
-      "query": "hydration "accessible name" in:title is:issue created:2021-01-01..2026-09-14",
+      "query": "hydration \"accessible name\" in:title is:issue created:2021-01-01..2026-09-14",
       "count": 3,
       "canonical_urls": [
         "https://github.com/marquinhusgoncalves/marquinhusgoncalves.com/issues/46",
