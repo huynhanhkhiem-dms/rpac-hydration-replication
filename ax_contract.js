@@ -336,7 +336,7 @@ function compareRelations(a, b, mapAtoB) {
     const observed = right.map(relationTokenRight).sort();
     if (stableString(expected) !== stableString(observed)) {
       const reason = expected.some(x => x.startsWith('UNMATCHED_RETAINED:')) ? 'unmatched-resolved-target' : 'target-semantics';
-      diffs.push({relation:key, reason: reason, expectedTargets:expected, observedTargets:observed});
+      diffs.push({relation:key, reason, expectedTargets:expected, observedTargets:observed});
     }
   }
   return diffs;
@@ -353,7 +353,7 @@ function compareCanonicalTrees(graphA, graphB) {
 
   const diffs = [];
   if (aRootText !== bRootText) diffs.push({alignmentIndex:-1, classes:['text'], ssr:{rootTextContent:aRootText}, csr:{rootTextContent:bRootText}, relationDetails:[], topologyDetails:null});
-  for (let k=0;k<aligned.length;k+) {
+  for (let k=0;k<aligned.length;k++) {
     const {a,b} = aligned[k];
     const classes = coreDiffClasses(a,b);
     const relationDetails = a && b ? compareRelations(a,b,mapAtoB) : [];
