@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "RPAC Hydration Replication Package"
-message: "If you use this dataset or code, please cite the associated article and this repository."
+message: "If you use this dataset or code, please cite the associated manuscript and this repository."
 type: dataset
 authors:
   - family-names: "Huynh"
@@ -11,7 +11,9 @@ url: "https://github.com/huynhanhkhiem-dms/rpac-hydration-replication"
 license: MIT
 keywords:
   - hydration
+  - cross-representation testing
   - accessibility tree
   - DOM differencing
   - regression testing
+  - test oracles
   - reproducibility
