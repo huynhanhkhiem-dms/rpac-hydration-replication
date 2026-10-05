@@ -1,0 +1,52 @@
+case_id,repository,issue,stratum,contrast,D_rel_native_state,D_rel_legacy,D_raw_native_state,OpenWC_compatible,Playwright_ARIA_snapshot,RPAC_primary,RPAC_alternate,dual_matcher_consensus_all_20,stable_all_reported_contracts_runs,total_runs,joint_cell,rpac_difference_classes
+radix-ui/primitives#3700,radix-ui/primitives,3700,generated identifiers / IDREF relation drift,pre_hydration_vs_clean_csr,0,0,1,1,0,0,0,1,20,20,D-/R-,
+radix-ui/primitives#3700,radix-ui/primitives,3700,generated identifiers / IDREF relation drift,post_hydration_vs_clean_csr,0,0,1,1,0,0,0,1,20,20,D-/R-,
+radix-ui/primitives#3700,radix-ui/primitives,3700,generated identifiers / IDREF relation drift,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+adobe/react-spectrum#9786,adobe/react-spectrum,9786,generated identifiers / IDREF relation drift,pre_hydration_vs_clean_csr,0,0,1,1,0,0,0,1,20,20,D-/R-,
+adobe/react-spectrum#9786,adobe/react-spectrum,9786,generated identifiers / IDREF relation drift,post_hydration_vs_clean_csr,0,0,1,1,0,0,0,1,20,20,D-/R-,
+adobe/react-spectrum#9786,adobe/react-spectrum,9786,generated identifiers / IDREF relation drift,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+mui/base-ui#4616,mui/base-ui,4616,environment/locale/time dependent semantic value,pre_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,state
+mui/base-ui#4616,mui/base-ui,4616,environment/locale/time dependent semantic value,post_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,state
+mui/base-ui#4616,mui/base-ui,4616,environment/locale/time dependent semantic value,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+Avana-Labs/avana-sandbox#162,Avana-Labs/avana-sandbox,162,conditional server/client tree or state changes useId/ARIA semantics,pre_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,state
+Avana-Labs/avana-sandbox#162,Avana-Labs/avana-sandbox,162,conditional server/client tree or state changes useId/ARIA semantics,post_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,state
+Avana-Labs/avana-sandbox#162,Avana-Labs/avana-sandbox,162,conditional server/client tree or state changes useId/ARIA semantics,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+GuiHolanda/quiz-maker#3,GuiHolanda/quiz-maker,3,conditional server/client tree or state changes useId/ARIA semantics,pre_hydration_vs_clean_csr,1,1,1,1,0,0,0,1,20,20,D+/R-,
+GuiHolanda/quiz-maker#3,GuiHolanda/quiz-maker,3,conditional server/client tree or state changes useId/ARIA semantics,post_hydration_vs_clean_csr,1,1,1,1,0,0,0,1,20,20,D+/R-,
+GuiHolanda/quiz-maker#3,GuiHolanda/quiz-maker,3,conditional server/client tree or state changes useId/ARIA semantics,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+WXYC/dj-site#895,WXYC/dj-site,895,conditional server/client tree or state changes useId/ARIA semantics,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+WXYC/dj-site#895,WXYC/dj-site,895,conditional server/client tree or state changes useId/ARIA semantics,post_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+WXYC/dj-site#895,WXYC/dj-site,895,conditional server/client tree or state changes useId/ARIA semantics,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+roonga/qcms#151,roonga/qcms,151,conditional server/client tree or state changes useId/ARIA semantics,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,role|state|value
+roonga/qcms#151,roonga/qcms,151,conditional server/client tree or state changes useId/ARIA semantics,post_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,role|state|value
+roonga/qcms#151,roonga/qcms,151,conditional server/client tree or state changes useId/ARIA semantics,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+dentalpin/dentalpin#202,dentalpin/dentalpin,202,environment/locale/time dependent semantic value,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+dentalpin/dentalpin#202,dentalpin/dentalpin,202,environment/locale/time dependent semantic value,post_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+dentalpin/dentalpin#202,dentalpin/dentalpin,202,environment/locale/time dependent semantic value,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+conduit-protocol/streamFi-app#416,conduit-protocol/streamFi-app,416,environment/locale/time dependent semantic value,pre_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,value
+conduit-protocol/streamFi-app#416,conduit-protocol/streamFi-app,416,environment/locale/time dependent semantic value,post_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,value
+conduit-protocol/streamFi-app#416,conduit-protocol/streamFi-app,416,environment/locale/time dependent semantic value,pre_vs_post_hydration,0,0,0,0,0,0,0,1,20,20,D-/R-,
+RedHat-UX/red-hat-design-system#2653,RedHat-UX/red-hat-design-system,2653,hydration cleanup/adoption changes accessibility attributes,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,structure
+RedHat-UX/red-hat-design-system#2653,RedHat-UX/red-hat-design-system,2653,hydration cleanup/adoption changes accessibility attributes,post_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,structure
+RedHat-UX/red-hat-design-system#2653,RedHat-UX/red-hat-design-system,2653,hydration cleanup/adoption changes accessibility attributes,pre_vs_post_hydration,1,1,1,1,0,0,0,1,20,20,D+/R-,
+WordPress/gutenberg#79380,WordPress/gutenberg,79380,pre-hydration semantic association/name absent and created client-side,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+WordPress/gutenberg#79380,WordPress/gutenberg,79380,pre-hydration semantic association/name absent and created client-side,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+WordPress/gutenberg#79380,WordPress/gutenberg,79380,pre-hydration semantic association/name absent and created client-side,pre_vs_post_hydration,1,1,1,1,1,1,1,1,20,20,D+/R+,name
+salesforce/lwc#4701,salesforce/lwc,4701,SSR/browser ARIA property-reflection divergence,pre_hydration_vs_clean_csr,1,1,1,1,0,0,0,1,20,20,D+/R-,
+salesforce/lwc#4701,salesforce/lwc,4701,SSR/browser ARIA property-reflection divergence,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+salesforce/lwc#4701,salesforce/lwc,4701,SSR/browser ARIA property-reflection divergence,pre_vs_post_hydration,1,1,1,1,0,0,0,1,20,20,D+/R-,
+salesforce/lwc#4788,salesforce/lwc,4788,SSR/browser ARIA property-reflection divergence,pre_hydration_vs_clean_csr,1,1,1,1,0,0,0,1,20,20,D+/R-,
+salesforce/lwc#4788,salesforce/lwc,4788,SSR/browser ARIA property-reflection divergence,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+salesforce/lwc#4788,salesforce/lwc,4788,SSR/browser ARIA property-reflection divergence,pre_vs_post_hydration,1,1,1,1,0,0,0,1,20,20,D+/R-,
+EncryptionL/twico-ui#85,EncryptionL/twico-ui,85,interaction/focus semantics materialize only after hydration,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,state
+EncryptionL/twico-ui#85,EncryptionL/twico-ui,85,interaction/focus semantics materialize only after hydration,post_hydration_vs_clean_csr,1,0,1,0,1,1,1,1,20,20,D+/R+,state
+EncryptionL/twico-ui#85,EncryptionL/twico-ui,85,interaction/focus semantics materialize only after hydration,pre_vs_post_hydration,1,1,1,1,1,1,1,1,20,20,D+/R+,state
+tutkli/forty-cdk#1409,tutkli/forty-cdk,1409,pre-hydration semantic association/name absent and created client-side,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name|relation
+tutkli/forty-cdk#1409,tutkli/forty-cdk,1409,pre-hydration semantic association/name absent and created client-side,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+tutkli/forty-cdk#1409,tutkli/forty-cdk,1409,pre-hydration semantic association/name absent and created client-side,pre_vs_post_hydration,1,1,1,1,1,1,1,1,20,20,D+/R+,name|relation
+mui/base-ui#5597,mui/base-ui,5597,interaction/focus semantics materialize only after hydration,pre_hydration_vs_clean_csr,1,1,1,1,1,1,1,1,20,20,D+/R+,name|relation|structure|text
+mui/base-ui#5597,mui/base-ui,5597,interaction/focus semantics materialize only after hydration,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+mui/base-ui#5597,mui/base-ui,5597,interaction/focus semantics materialize only after hydration,pre_vs_post_hydration,1,1,1,1,1,1,1,1,20,20,D+/R+,name|relation|structure|text
+wpdreams/ajax-search-pro-development#351,wpdreams/ajax-search-pro-development,351,interaction/focus semantics materialize only after hydration,pre_hydration_vs_clean_csr,1,1,1,1,0,1,1,1,20,20,D+/R+,state
+wpdreams/ajax-search-pro-development#351,wpdreams/ajax-search-pro-development,351,interaction/focus semantics materialize only after hydration,post_hydration_vs_clean_csr,0,0,0,0,0,0,0,1,20,20,D-/R-,
+wpdreams/ajax-search-pro-development#351,wpdreams/ajax-search-pro-development,351,interaction/focus semantics materialize only after hydration,pre_vs_post_hydration,1,1,1,1,0,1,1,1,20,20,D+/R+,state

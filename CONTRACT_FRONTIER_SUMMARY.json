@@ -1,0 +1,156 @@
+{
+  "schema": "rpac-capture-contract-frontier-v1",
+  "generated_utc": "2026-10-03T03:31:32.436Z",
+  "original_capture_created_utc": "2026-09-16T14:44:37Z",
+  "native_state_properties": [
+    "value",
+    "checked",
+    "indeterminate",
+    "selected",
+    "disabled",
+    "readOnly",
+    "required",
+    "multiple",
+    "open",
+    "tabIndex",
+    "contentEditable",
+    "selectedIndex",
+    "inert"
+  ],
+  "contracts_enumerated": 8192,
+  "discovery": {
+    "cases": 17,
+    "contrasts": 51
+  },
+  "temporal_holdout": {
+    "cases": 3,
+    "contrasts": 9,
+    "provenance": [
+      {
+        "id": "publira/publira#2310",
+        "issue_created_utc": "2026-09-16T15:13:45Z",
+        "source_url": "https://github.com/publira/publira/issues/2310",
+        "post_original_capture": true,
+        "minutes_after_original_capture": 29
+      },
+      {
+        "id": "tomada1114/vibe-coding-studio#64",
+        "issue_created_utc": "2026-09-16T15:35:50Z",
+        "source_url": "https://github.com/tomada1114/vibe-coding-studio/issues/64",
+        "post_original_capture": true,
+        "minutes_after_original_capture": 51
+      },
+      {
+        "id": "piconic-ai/barefootjs#3065",
+        "issue_created_utc": "2026-09-19T02:44:49Z",
+        "source_url": "https://github.com/piconic-ai/barefootjs/issues/3065",
+        "post_original_capture": true,
+        "minutes_after_original_capture": 3600
+      }
+    ]
+  },
+  "exhaustive_frontier": {
+    "zero_false_negative_contracts": 4096,
+    "contracts_with_false_negative": 4096,
+    "properties_present_in_every_zero_false_negative_contract": [
+      "indeterminate"
+    ],
+    "properties_present_in_any_zero_false_negative_contract": [
+      "value",
+      "checked",
+      "indeterminate",
+      "selected",
+      "disabled",
+      "readOnly",
+      "required",
+      "multiple",
+      "open",
+      "tabIndex",
+      "contentEditable",
+      "selectedIndex",
+      "inert"
+    ],
+    "minimal_lexicographic_optimum": {
+      "properties": [
+        "indeterminate"
+      ],
+      "TP": 25,
+      "TN": 19,
+      "FP": 7,
+      "FN": 0,
+      "total": 51,
+      "agreement": 0.8627450980392157
+    },
+    "relation_normalized_base_no_native_properties": {
+      "TP": 24,
+      "TN": 19,
+      "FP": 7,
+      "FN": 1,
+      "total": 51,
+      "agreement": 0.8431372549019608
+    },
+    "indeterminate_only": {
+      "TP": 25,
+      "TN": 19,
+      "FP": 7,
+      "FN": 0,
+      "total": 51,
+      "agreement": 0.8627450980392157
+    },
+    "full_13_field": {
+      "TP": 25,
+      "TN": 19,
+      "FP": 7,
+      "FN": 0,
+      "total": 51,
+      "agreement": 0.8627450980392157
+    },
+    "holdout_full_13_field": {
+      "TP": 6,
+      "TN": 3,
+      "FP": 0,
+      "FN": 0,
+      "total": 9,
+      "agreement": 1
+    },
+    "holdout_indeterminate_only": {
+      "TP": 6,
+      "TN": 3,
+      "FP": 0,
+      "FN": 0,
+      "total": 9,
+      "agreement": 1
+    },
+    "full_13_field_combined_20_case_60_contrast": {
+      "TP": 31,
+      "TN": 22,
+      "FP": 7,
+      "FN": 0,
+      "total": 60,
+      "agreement": 0.8833333333333333
+    },
+    "full_and_indeterminate_only_same_discovery_metrics": true,
+    "full_and_indeterminate_only_same_holdout_metrics": true
+  },
+  "property_influence": [
+    {"property":"value","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"checked","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"indeterminate","pairs_tested":4096,"metric_changing_pairs_discovery":4096,"metric_changing_pairs_holdout":0},
+    {"property":"selected","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"disabled","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"readOnly","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"required","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"multiple","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"open","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"tabIndex","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"contentEditable","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"selectedIndex","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0},
+    {"property":"inert","pairs_tested":4096,"metric_changing_pairs_discovery":0,"metric_changing_pairs_holdout":0}
+  ],
+  "interpretation": [
+    "On the 17-case discovery benchmark, every one of the 4096 contracts containing indeterminate has 0 RPAC-positive/DOM-negative contrasts, while every one of the 4096 contracts omitting indeterminate has exactly 1.",
+    "No other native-state property changes the aggregate binary decision metrics on the discovery benchmark.",
+    "The three temporal-holdout issues were created after the original 17-case browser capture timestamp and therefore could not have influenced that capture; all 9 holdout contrasts agree between the relation-normalized DOM comparator and RPAC.",
+    "The holdout validates the relation/lifecycle formulation on new issue mechanisms but does not independently validate the indeterminate-specific necessity result because none of the holdout issues is a native-indeterminate case."
+  ]
+}

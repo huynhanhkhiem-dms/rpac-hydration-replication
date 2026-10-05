@@ -1,0 +1,23 @@
+{
+  "schema": "rpac-timing-sensitivity-summary",
+  "main_wait_ms": 20,
+  "main_runs_per_case": 20,
+  "sensitivity_wait_ms": [
+    0,
+    100
+  ],
+  "sensitivity_runs_per_case": 1,
+  "case_count": 17,
+  "case_contrast_units": 51,
+  "compared_fields": [
+    "D",
+    "D_legacy",
+    "OpenWC",
+    "R",
+    "R_alt"
+  ],
+  "decision_differences_0_vs_20": 0,
+  "decision_differences_20_vs_100": 0,
+  "decision_differences_0_vs_100": 0,
+  "interpretation": "Within these synchronous micro-reproductions, the reported case-contrast decisions are unchanged by using 0, 20, or 100 ms settling windows. This is a benchmark-specific sensitivity check, not a general timing guarantee."
+}

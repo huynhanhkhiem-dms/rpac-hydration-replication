@@ -1,0 +1,54 @@
+{
+  "schema": "rpac-temporal-holdout-summary-v1",
+  "case_count": 3,
+  "repository_count": 3,
+  "runs_per_case": 20,
+  "browser": "144.0.7559.96",
+  "contrasts": 9,
+  "aggregate": {
+    "TP": 6,
+    "TN": 3,
+    "FP": 0,
+    "FN": 0,
+    "total": 9,
+    "agreement_count": 9,
+    "agreement": 1.0
+  },
+  "all_contrasts_stable_20_of_20": true,
+  "all_RPAC_matchers_agree": true,
+  "cases": [
+    {
+      "id": "publira/publira#2310",
+      "repo": "publira/publira",
+      "issue": 2310,
+      "issue_created_utc": "2026-09-16T15:13:45Z",
+      "source_url": "https://github.com/publira/publira/issues/2310",
+      "stratum": "pre-hydration semantic association/name absent and retained after hydration",
+      "mechanism": "Suspense fallback omits aria-labelledby/aria-describedby on SSR; hydration leaves server attributes in place",
+      "persistence": "persistent relation/name-description divergence",
+      "fidelity": "mechanism-preserving translation from issue-reported server/client attribute diff"
+    },
+    {
+      "id": "tomada1114/vibe-coding-studio#64",
+      "repo": "tomada1114/vibe-coding-studio",
+      "issue": 64,
+      "issue_created_utc": "2026-09-16T15:35:50Z",
+      "source_url": "https://github.com/tomada1114/vibe-coding-studio/issues/64",
+      "stratum": "interaction/state semantics materialize only after hydration",
+      "mechanism": "SSR assumes dark theme; aria-pressed is corrected after mount for a light-theme user",
+      "persistence": "self-healing at hydration",
+      "fidelity": "mechanism-preserving translation of the issue's explicit aria-pressed true-to-false transition"
+    },
+    {
+      "id": "piconic-ai/barefootjs#3065",
+      "repo": "piconic-ai/barefootjs",
+      "issue": 3065,
+      "issue_created_utc": "2026-09-19T02:44:49Z",
+      "source_url": "https://github.com/piconic-ai/barefootjs/issues/3065",
+      "stratum": "interaction/state semantics materialize only after hydration",
+      "mechanism": "radio-group default item hard-codes aria-checked=false in SSR and writes true during hydration",
+      "persistence": "self-healing at hydration",
+      "fidelity": "literal mechanism translation from the issue's radio-group row"
+    }
+  ]
+}

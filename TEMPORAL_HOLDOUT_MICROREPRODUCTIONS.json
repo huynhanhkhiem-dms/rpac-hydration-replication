@@ -1,0 +1,47 @@
+[
+  {
+    "id": "publira/publira#2310",
+    "repo": "publira/publira",
+    "issue": 2310,
+    "issue_created_utc": "2026-09-16T15:13:45Z",
+    "source_url": "https://github.com/publira/publira/issues/2310",
+    "stratum": "pre-hydration semantic association/name absent and retained after hydration",
+    "mechanism": "Suspense fallback omits aria-labelledby/aria-describedby on SSR; hydration leaves server attributes in place",
+    "persistence": "persistent relation/name-description divergence",
+    "family": "hydration-retained-missing-relations",
+    "fidelity": "mechanism-preserving translation from issue-reported server/client attribute diff",
+    "pre": "<label id='genre-label-__R__'>Genres</label><div id='genre-desc-__R__'>Choose genres</div><input role='combobox' aria-expanded='false'>",
+    "hyd": "<label id='genre-label-__R__'>Genres</label><div id='genre-desc-__R__'>Choose genres</div><input role='combobox' aria-expanded='false'>",
+    "csr": "<label id='genre-label-__R__'>Genres</label><div id='genre-desc-__R__'>Choose genres</div><input role='combobox' aria-expanded='false' aria-labelledby='genre-label-__R__' aria-describedby='genre-desc-__R__'>"
+  },
+  {
+    "id": "tomada1114/vibe-coding-studio#64",
+    "repo": "tomada1114/vibe-coding-studio",
+    "issue": 64,
+    "issue_created_utc": "2026-09-16T15:35:50Z",
+    "source_url": "https://github.com/tomada1114/vibe-coding-studio/issues/64",
+    "stratum": "interaction/state semantics materialize only after hydration",
+    "mechanism": "SSR assumes dark theme; aria-pressed is corrected after mount for a light-theme user",
+    "persistence": "self-healing at hydration",
+    "family": "client-preference-state",
+    "fidelity": "mechanism-preserving translation of the issue's explicit aria-pressed true-to-false transition",
+    "pre": "<button aria-pressed='true' aria-label='Theme'>Theme</button>",
+    "hyd": "<button aria-pressed='false' aria-label='Theme'>Theme</button>",
+    "csr": "<button aria-pressed='false' aria-label='Theme'>Theme</button>"
+  },
+  {
+    "id": "piconic-ai/barefootjs#3065",
+    "repo": "piconic-ai/barefootjs",
+    "issue": 3065,
+    "issue_created_utc": "2026-09-19T02:44:49Z",
+    "source_url": "https://github.com/piconic-ai/barefootjs/issues/3065",
+    "stratum": "interaction/state semantics materialize only after hydration",
+    "mechanism": "radio-group default item hard-codes aria-checked=false in SSR and writes true during hydration",
+    "persistence": "self-healing at hydration",
+    "family": "ref-effect-aria-state",
+    "fidelity": "literal mechanism translation from the issue's radio-group row",
+    "pre": "<div role='radiogroup' aria-label='Choice'><div role='radio' aria-checked='false'>A</div><div role='radio' aria-checked='false'>B</div></div>",
+    "hyd": "<div role='radiogroup' aria-label='Choice'><div role='radio' aria-checked='true'>A</div><div role='radio' aria-checked='false'>B</div></div>",
+    "csr": "<div role='radiogroup' aria-label='Choice'><div role='radio' aria-checked='true'>A</div><div role='radio' aria-checked='false'>B</div></div>"
+  }
+]

@@ -1,0 +1,10 @@
+case_id,repository,issue,issue_created_utc,source_url,contrast,D_rel_native_state,RPAC,joint_cell,stable_runs
+publira/publira#2310,publira/publira,2310,2026-09-16T15:13:45Z,https://github.com/publira/publira/issues/2310,pre_hydration_vs_clean_csr,1,1,D+/R+,20
+publira/publira#2310,publira/publira,2310,2026-09-16T15:13:45Z,https://github.com/publira/publira/issues/2310,post_hydration_vs_clean_csr,1,1,D+/R+,20
+publira/publira#2310,publira/publira,2310,2026-09-16T15:13:45Z,https://github.com/publira/publira/issues/2310,pre_vs_post_hydration,0,0,D-/R-,20
+tomada1114/vibe-coding-studio#64,tomada1114/vibe-coding-studio,64,2026-09-16T15:35:50Z,https://github.com/tomada1114/vibe-coding-studio/issues/64,pre_hydration_vs_clean_csr,1,1,D+/R+,20
+tomada1114/vibe-coding-studio#64,tomada1114/vibe-coding-studio,64,2026-09-16T15:35:50Z,https://github.com/tomada1114/vibe-coding-studio/issues/64,post_hydration_vs_clean_csr,0,0,D-/R-,20
+tomada1114/vibe-coding-studio#64,tomada1114/vibe-coding-studio,64,2026-09-16T15:35:50Z,https://github.com/tomada1114/vibe-coding-studio/issues/64,pre_vs_post_hydration,1,1,D+/R+,20
+piconic-ai/barefootjs#3065,piconic-ai/barefootjs,3065,2026-09-19T02:44:49Z,https://github.com/piconic-ai/barefootjs/issues/3065,pre_hydration_vs_clean_csr,1,1,D+/R+,20
+piconic-ai/barefootjs#3065,piconic-ai/barefootjs,3065,2026-09-19T02:44:49Z,https://github.com/piconic-ai/barefootjs/issues/3065,post_hydration_vs_clean_csr,0,0,D-/R-,20
+piconic-ai/barefootjs#3065,piconic-ai/barefootjs,3065,2026-09-19T02:44:49Z,https://github.com/piconic-ai/barefootjs/issues/3065,pre_vs_post_hydration,1,1,D+/R+,20

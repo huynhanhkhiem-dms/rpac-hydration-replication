@@ -1,0 +1,155 @@
+{
+  "schema": "rpac-study-empirical-summary-native-state",
+  "case_count": 17,
+  "repository_count": 15,
+  "mechanism_strata": 7,
+  "runs_per_case": 20,
+  "checkpoints_per_run": 3,
+  "captured_browser_states": 1020,
+  "run_level_contrast_decisions": 1020,
+  "case_contrast_units": 51,
+  "all_case_contrasts_stable_20_of_20": true,
+  "all_main_contract_contrasts_stable_20_of_20": true,
+  "dual_matcher_consensus_pairwise": 1020,
+  "dual_matcher_total_pairwise": 1020,
+  "native_state_properties": [
+    "value",
+    "checked",
+    "indeterminate",
+    "selected",
+    "disabled",
+    "readOnly",
+    "required",
+    "multiple",
+    "open",
+    "tabIndex",
+    "contentEditable",
+    "selectedIndex",
+    "inert"
+  ],
+  "aggregate": {
+    "pre_hydration_vs_clean_csr": {
+      "D_rel_x_RPAC_cells": {
+        "D+/R+": 12,
+        "D+/R-": 3,
+        "D-/R-": 2
+      },
+      "agreement_count": 14,
+      "total": 17,
+      "agreement_D_rel_RPAC": 0.8235294117647058,
+      "cohen_kappa": 0.4848484848484848
+    },
+    "post_hydration_vs_clean_csr": {
+      "D_rel_x_RPAC_cells": {
+        "D+/R+": 8,
+        "D+/R-": 1,
+        "D-/R-": 8
+      },
+      "agreement_count": 16,
+      "total": 17,
+      "agreement_D_rel_RPAC": 0.9411764705882353,
+      "cohen_kappa": 0.8827586206896552
+    },
+    "pre_vs_post_hydration": {
+      "D_rel_x_RPAC_cells": {
+        "D+/R+": 5,
+        "D+/R-": 3,
+        "D-/R-": 9
+      },
+      "agreement_count": 14,
+      "total": 17,
+      "agreement_D_rel_RPAC": 0.8235294117647058,
+      "cohen_kappa": 0.6382978723404255
+    }
+  },
+  "contract_sensitivity": {
+    "raw_DOM_native_state": {
+      "agreement_count": 40,
+      "total": 51,
+      "agreement": 0.7843137254901961,
+      "tool_positive_RPAC_negative": 11,
+      "tool_negative_RPAC_positive": 0
+    },
+    "OpenWC_compatible_semantic_markup": {
+      "agreement_count": 39,
+      "total": 51,
+      "agreement": 0.7647058823529411,
+      "tool_positive_RPAC_negative": 11,
+      "tool_negative_RPAC_positive": 1
+    },
+    "relation_normalized_DOM_legacy": {
+      "agreement_count": 43,
+      "total": 51,
+      "agreement": 0.8431372549019608,
+      "tool_positive_RPAC_negative": 7,
+      "tool_negative_RPAC_positive": 1
+    },
+    "relation_normalized_DOM_13_field_native_state": {
+      "agreement_count": 44,
+      "total": 51,
+      "agreement": 0.8627450980392157,
+      "tool_positive_RPAC_negative": 7,
+      "tool_negative_RPAC_positive": 0
+    }
+  },
+  "auxiliary_versioned_baseline": {
+    "Playwright_ARIA_snapshot_Python_1_57_0": {
+      "agreement_count": 43,
+      "total": 51,
+      "agreement": 0.8431372549019608,
+      "tool_positive_RPAC_negative": 0,
+      "tool_negative_RPAC_positive": 8
+    },
+    "interpretation": "Archived version-specific output only; not used to characterize current Playwright behavior or headline conclusions."
+  },
+  "sensitivity_excluding_three_abstraction_heavy_cases": {
+    "excluded": [
+      "GuiHolanda/quiz-maker#3",
+      "RedHat-UX/red-hat-design-system#2653",
+      "adobe/react-spectrum#9786"
+    ],
+    "remaining_cases": 14,
+    "aggregate": {
+      "pre_hydration_vs_clean_csr": {
+        "D_rel_x_RPAC_cells": {
+          "D+/R+": 11,
+          "D+/R-": 2,
+          "D-/R-": 1
+        },
+        "agreement_count": 12,
+        "total": 14,
+        "agreement_D_rel_RPAC": 0.8571428571428571,
+        "cohen_kappa": 0.43999999999999995
+      },
+      "post_hydration_vs_clean_csr": {
+        "D_rel_x_RPAC_cells": {
+          "D+/R+": 7,
+          "D-/R-": 7
+        },
+        "agreement_count": 14,
+        "total": 14,
+        "agreement_D_rel_RPAC": 1.0,
+        "cohen_kappa": 1.0
+      },
+      "pre_vs_post_hydration": {
+        "D_rel_x_RPAC_cells": {
+          "D+/R+": 5,
+          "D+/R-": 2,
+          "D-/R-": 7
+        },
+        "agreement_count": 12,
+        "total": 14,
+        "agreement_D_rel_RPAC": 0.8571428571428571,
+        "cohen_kappa": 0.7142857142857142
+      }
+    }
+  },
+  "key_findings": [
+    "Pre-hydration vs clean CSR: 2 D-/R-, 12 D+/R+, 3 D+/R-.",
+    "Post-hydration vs clean CSR: 8 D-/R-, 8 D+/R+, 1 D+/R-, 0 D-/R+.",
+    "Pre- vs post-hydration: 9 D-/R-, 5 D+/R+, 3 D+/R-, 0 D-/R+.",
+    "Across all 51 contrasts, the relation-normalized 13-field native-state contract agrees with RPAC on 44 (86.3%): 25 D+/R+, 19 D-/R-, 7 D+/R-, and 0 D-/R+.",
+    "The legacy relation-normalized DOM contract and the OpenWC-compatible markup contract each reintroduce one tool-negative/RPAC-positive checkbox miss.",
+    "The legacy and OpenWC-compatible contracts each miss the mixed-checkbox state that is detected when HTMLInputElement.indeterminate is retained."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "capture_date_utc": "2026-09-16",
+  "operating_system": "Debian GNU/Linux 13 (trixie)",
+  "chromium": "144.0.7559.96",
+  "node": "22.16.0",
+  "python": "3.13.5",
+  "python_playwright": "1.57.0",
+  "browser_executable": "/usr/bin/chromium",
+  "accessibility_capture_api": "Chrome DevTools Protocol Accessibility.getFullAXTree",
+  "playwright_baseline_api": "Locator.aria_snapshot()",
+  "dom_capture": "browser-executed element projection with frozen native-state policy",
+  "viewport": "1280x720",
+  "locale": "en-US",
+  "playwright_aria_snapshot_status": "archived version-specific auxiliary artifact; not interpreted as current Playwright performance",
+  "main_wait_after_load_ms": 20,
+  "timing_sensitivity_wait_ms": [
+    0,
+    100
+  ],
+  "timing_sensitivity_runs_per_case": 1
+}
